@@ -1,0 +1,155 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    height: 100vh;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: #0F0F0D;
+}
+
+#header {
+    display: flex;
+    padding: 2%;
+    padding-bottom: 3%;
+    background-color: #1E1E1C;
+    cursor: default;
+}
+#header h1 {
+    text-align: center;
+    color: #DBFF00;
+    font-family: Roboto;
+    font-weight: bolder;
+    font-size: 4em;
+}
+#header img {
+    height: 77px;
+    width: 77px;
+    margin-right: 2em;
+    cursor: pointer;
+}
+
+.navBar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 4em;
+    width: 100%;
+    top: 0;
+    position: sticky;
+    background-color: #A145FF;
+    transition: 0.3s ease;
+}                             
+.navBarAlt {
+    height: 5em;
+    width: 100%;
+}                                                                                                                                                                /*change to a popdown menu for phones*/
+.navBar-Item {
+    padding: 1em 2em 1em 2em;
+    color: #DBFF00;
+    font-family: Roboto;
+    transition: 0.3s;
+}
+.navBar-Item:hover {
+    background-color: #932bfc;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.navBar-Item-Style2 {
+    display: flex;
+    padding: 0.5em;
+    padding-right: 1em;
+    padding-left: 1em;
+    border: solid 1px #DBFF00;
+    border-radius: 20px;
+    margin: 1em;
+    background-color: #DBFF00;
+    color: black;
+    font-family: Roboto;
+    font-weight:bold;
+    text-align: center;
+    transition: 0.1s;
+}
+.navBar-Item-Style2:hover {
+    scale: 1.1;
+    transition: 0.2s;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-content: space-evenly;
+    height:20em;
+    width: 100%;
+    background-color: #0F0F0D;
+}
+#collegeImg {
+    height: 300px;
+    width: fit-content;
+    object-fit: cover;
+    padding-left: 5%;
+    padding-right: 20%;
+    border-right: solid 2px #1E1E1C;
+    
+    
+}
+#collegeInfo {
+    max-width:90%;
+    padding-left: 20%;
+    padding-right: 5%;
+    color: white;
+}
+#collegeInfo a {
+    color: white;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+
+#footer {
+    height: 5em;
+    width: 100%;
+    bottom: 0;
+    padding-bottom: 0;
+    border: 0;
+    margin-bottom: 0;
+    margin-top: auto; /*push down to bottom once other content is done*/
+    background-color: #1E1E1C;
+}
+#footer a {
+    margin-left: 2em;
+    color: #A145FF;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: small;
+    text-decoration-line: underline;
+}
+#footer a:hover {
+    text-decoration-line: none;
+    color:#932bfc;
+}
+#footer button {
+    padding: 0;
+    border: 0;
+    margin-left: 2em;
+    background-color:#1E1E1C;
+    color: #A145FF;
+    font-size: small;
+    text-decoration-line: underline;
+    cursor: pointer;
+}
+#footer button:hover {
+    text-decoration-line: none;
+    color:#932bfc;
+}
+
+.temp {
+    height: 100em;
+}
